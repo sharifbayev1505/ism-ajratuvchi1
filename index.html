@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Ism-Familiya Ajratuvchi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Ism Familiya va Otasining ismi </h2>
+
+    <input id="fullName" type="text" placeholder="ism">
+
+    <button onclick="splitName()">TOPISH</button>
+
+    <div class="result">
+        <p><strong>Ismi:</strong> <span id="name"></span></p>
+        <p><strong>Familiyasi:</strong> <span id="surname"></span></p>
+        <p><strong>Otasining ismi:</strong> <span id="father"></span></p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
